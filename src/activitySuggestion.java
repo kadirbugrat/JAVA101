@@ -13,11 +13,11 @@ public class activitySuggestion {
 
 
 
-        if(heat<5){
+        if(heat<=5){
             System.out.println("You can Ski");
-        } else if (heat>=5 && heat<15) {
+        } else if (heat>5 && heat<=15) {
             System.out.println("You can go to the Cinema");
-        } else if (heat>=15 && heat<=25) {
+        } else if (heat>15 && heat<=25) {
             System.out.println("You can go to the Picnic");
         }else{
             System.out.println("You can Swim");
